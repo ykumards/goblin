@@ -8,6 +8,8 @@ Make sure you clone the repo using ssh and configure github with your public rsa
 
 For running the script, place goblin.go inside the repo and use:
     <pre><code>go run goblin.go *days*</pre></code>
-*days*, is the number of many days you'd like goblin to go back.
+*days*, is the number of many days you'd like goblin to go back. 
+
+This will take a while.
 
 This has been tested on Ubuntu 14.04 (trusty).
