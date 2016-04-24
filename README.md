@@ -8,7 +8,6 @@ Make sure you clone the repo using ssh and configure github with your public rsa
 
 For running the script, place goblin.go inside the repo and use:
     go run goblin.go <days>
-
 <days>, is many days you'd like goblin to go.
 
 This has been tested on Ubuntu 14.04 (trusty).
