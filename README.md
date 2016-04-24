@@ -7,7 +7,7 @@ Goblin's main purpose was to help me learn the basics of running external comman
 Make sure you clone the repo using ssh and configure github with your public rsa key (details [here](https://help.github.com/articles/generating-an-ssh-key/)). In case you've cloned the repo using https, [this](https://help.github.com/articles/changing-a-remote-s-url/) might be useful.
 
 For running the script, place goblin.go inside the repo and use:
-    go run goblin.go <days>
-<days>, is many days you'd like goblin to go.
+    <pre><code>go run goblin.go *days*</pre></code>
+*days*, is many days you'd like goblin to go.
 
 This has been tested on Ubuntu 14.04 (trusty).
