@@ -4,8 +4,7 @@ Goblin paints your github calender green. It modifies your repository's date env
 Goblin's main purpose was to help me learn the basics of running external commands (mostly git) in Go, so it requires [Go](https://github.com/golang/go/wiki/Ubuntu) compiler to function.
 
 ## Usage
-Make sure you clone the repo using ssh and configure github with your public rsa key (details [here](https://help.github.com/articles/generating-an-ssh-key/)) 
-In case you've cloned the repo using https, [this](https://help.github.com/articles/changing-a-remote-s-url/) might be useful.
+Make sure you clone the repo using ssh and configure github with your public rsa key (details [here](https://help.github.com/articles/generating-an-ssh-key/)). In case you've cloned the repo using https, [this](https://help.github.com/articles/changing-a-remote-s-url/) might be useful.
 
 For running the script, place goblin.go inside the repo and use:
     go run goblin.go <days>
